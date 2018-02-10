@@ -1,0 +1,13 @@
+# maven ignore
+target/
+bin/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+out/
+.idea/
+wishingwell.iml
