@@ -1,0 +1,7 @@
+CREATE TABLE `user` (
+	`id` INT(11) NULL DEFAULT NULL,
+	`name` VARCHAR(50) NULL DEFAULT NULL,
+	`age` INT(11) NULL DEFAULT NULL
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
