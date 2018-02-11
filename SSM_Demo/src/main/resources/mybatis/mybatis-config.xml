@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- Global settings -->
+	<settings>
+		<!-- Global mapper enable or disable cache -->
+		<setting name="cacheEnabled" value="true"/>
+		
+		<!-- Tell MyBatis how to auto map. -->
+		<setting name="autoMappingBehavior" value="PARTIAL"/>
+		
+		<!-- This is the default executor type. -->
+		<setting name="defaultExecutorType" value="SIMPLE"/>
+		
+		<!-- Use camel case to transfer fields. -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+
+		<!-- Print sql log. -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+	</settings>
+	
+</configuration>
